@@ -1,0 +1,328 @@
+@import url('reset.css');
+@import url('fuentes.css');
+
+/*--- Estilos Generales ---*/
+body{
+    background:#2d2d2d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{text-decoration: none; color: #fff;}
+a:hover{text-decoration: underline;}
+
+#wrap{
+    width: 960px;
+    margin: auto;
+    clear: both;
+}
+
+/*--- Header ---*/
+header{
+    width: 100%;
+    float: left;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+1,e4e0e0+100 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 1%, rgba(228,224,224,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 1%,rgba(228,224,224,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 1%,rgba(228,224,224,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e4e0e0',GradientType=0 ); /* IE6-9 */
+box-shadow: 0px 3px 5px #000;
+-moz-box-shadow: 0px 3px 5px #000;
+-webkit-box-shadow: 0px 3px 5px #000;
+}
+#subheader{
+    width: 960px;
+    margin: auto;
+}
+
+#logotipo{
+    float: left;
+    width: 300px;
+    padding: 10px 0px;
+}
+
+#logotipo a{
+    font-family: sourcesans-light;
+    font-size: 50px;
+    color: #000;
+    
+}
+#logotipo a:hover{ text-decoration: none;}
+
+/*--- Menu ---*/
+
+header #subheader nav{
+    float: left;
+    width: 660px;
+    padding: 30px 0px;
+    text-align: right;
+    
+}
+
+header #subheader nav ul li{
+    display: inline;
+    font-family: sourcesans;
+}
+
+header #subheader nav ul li a{
+    color: #000;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+header #subheader nav ul li a:hover{
+ color: #fff;
+ background: #1798af;
+ text-decoration: none;   
+}
+
+/*--- Main ---*/
+
+#main{
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    float: left;
+}
+
+/*--- SlideShow ---*/
+
+#slideshow {
+    width: 920px;
+    height: 260px;
+    float: left;
+    border: solid 20px white;
+    margin-bottom: 30px;
+   }
+   
+   .slidesjs-next.slidesjs-navigation {
+    visibility: hidden;
+    color: white;
+    padding: 5px;
+   }
+   
+   .slidesjs-previous.slidesjs-navigation {
+    visibility: hidden;
+    color: white;
+    padding: 5px;
+   }
+   
+   .slidesjs-pagination {
+    margin: -16px auto;
+    width: 100px;
+   }
+   
+   .slidesjs-pagination li {
+    float: left;
+    margin: 0px 5px;
+    list-style: none;
+    background-color: white;
+    border-radius: 6px;
+   }
+   
+   .slidesjs-pagination li a {
+    display: block;
+    width: 12px;
+    height: 0px;
+    padding-top: 12px;
+    float: left;
+    overflow: hidden;
+    border-radius: 6px;
+   }
+   
+   .slidesjs-pagination li .active {
+    background-color: #1798af;
+   }
+   
+   #slideshow img {
+    width: 920px;
+    height: 260px;
+   }
+
+
+/*--- Bienvenidos ---*/
+#bienvenidos{
+    width: 920px;
+    float: left;
+    padding: 20px;
+    margin: 20px 0px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#336633+2,2d4d1e+100 */
+background: rgb(51,102,51); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(51,102,51,1) 2%, rgba(45,77,30,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(51,102,51,1) 2%,rgba(45,77,30,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(51,102,51,1) 2%,rgba(45,77,30,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#336633', endColorstr='#2d4d1e',GradientType=0 ); /* IE6-9 */
+
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0px 2px 2px #000;
+    -moz-box-shadow: 0px 2px 2px #000;
+    -webkit-box-shadow: 0px 2px 2px #000;
+}
+#bienvenidos article h2{
+    font-family: sourcesans-light;
+    color: #fff;
+    font-size: 40px;
+}
+#bienvenidos article {
+    line-height: 27px; 
+    color: #fff;
+}
+
+/*--- Contenido ---*/
+#contenido{
+    width: 700px;
+    float: left;
+}
+
+#contenido article{
+    float: left;
+    margin-bottom: 20px;
+}
+#contenido article .titulo{
+    font-size: 22px;
+    font-family: sourcesans;
+    color: #fff;
+}
+#contenido article .fecha{
+    font-size: 14px;
+    color: #1798af;
+    margin-bottom: 5px;
+}
+#contenido article .thumb{
+    width: 220px;
+    height: 150px;
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+#contenido article > p{
+    color:#8c8c8c;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 27px;
+}
+
+/*--- SideBar ---*/
+aside{
+    width: 220px;
+    float: left;
+    margin-left: 20px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#084073+2,4d82b3+100 */
+background: rgb(8,64,115); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(8,64,115,1) 2%, rgba(77,130,179,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(8,64,115,1) 2%,rgba(77,130,179,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(8,64,115,1) 2%,rgba(77,130,179,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#084073', endColorstr='#4d82b3',GradientType=0 ); /* IE6-9 */
+border: solid 3px #000;
+padding: 7px 7px 0px 7px;
+box-shadow: 0px 2px 2px #000; 
+-moz-box-shadow: 0px 2px 2px #000; 
+-webkit-box-shadow: 0px 2px 2px #000; 
+}
+
+aside .widget{
+    margin-bottom: 10px;
+    float: left;
+}
+aside .widget > h3{
+ background: #fff;
+ color: #009999;
+ width: 220px;
+ padding: 10px 0px;
+ text-align: center;
+ font-weight: bold;
+ margin-bottom: 10px;
+}
+
+aside .widget a{color: #fff;}
+
+aside .widget ul li {margin-bottom: 10px; font-size: 18px;}
+aside .widget img{ width: 220px;}
+
+/*--- Footer ---*/
+footer{
+    width: 100%;
+    float: left;
+    clear: both;
+    box-shadow: 0px 2px 2px #000;
+    -moz-box-shadow: 0px 2px 2px #000;
+    -webkit-box-shadow: 0px 2px 2px #000;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#504f4f+1,232323+100 */
+    background: rgb(80,79,79); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(80,79,79,1) 1%, rgba(35,35,35,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(80,79,79,1) 1%,rgba(35,35,35,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(80,79,79,1) 1%,rgba(35,35,35,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#504f4f', endColorstr='#232323',GradientType=0 ); /* IE6-9 */
+}
+footer section{
+    width: 440px;
+    float: left;
+    padding:20px;
+}
+footer #acerca-de{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #1798af;
+    text-align: justify;
+    line-height: 20px;
+}
+footer #acerca-de h3{
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+footer #acerca-de h5{
+    font-size: 14px;
+    color: #1798af;
+}
+footer #redes-s > div{
+width: 220px;
+height: 60px;
+float: left;
+background: red;
+opacity: 0.5;
+}
+footer #redes-s > div a{
+    width: 220px;
+    height: 60px;
+    display:inline-block;
+}
+footer #redes-s .facebook{
+    background: url(../Imagenes/Facebook.png);
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+footer #redes-s .youtube{
+    background: url(../Imagenes/Youtube.png);
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+footer #redes-s .skype{
+    background: url(../Imagenes/Skype.png);
+}
+footer #redes-s .twitter{
+    background: url(../Imagenes/Twitter.png);
+}
+footer #redes-s >div:hover{
+    opacity: 1;
+}
+/*--- Copyright ---*/
+#copyright{
+    float: left;
+    width: 960px;
+    margin: 10px 0px;
+}
+#copyright p{
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8c8c8c;
+}
+
+
